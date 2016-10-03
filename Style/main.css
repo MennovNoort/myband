@@ -1,0 +1,280 @@
+@media screen and (min-width:950px){
+    body{
+        margin: 0;
+        font-family: sans-serif;
+    }
+    #menu{
+        width:90%;
+        background-color:white;
+        color:dimgray;
+        margin:0 auto;
+        
+    }
+    #logo_ruimte{
+        width:70px;
+    }
+    #logo{
+        width:70px;
+        margin-left:10px;
+        margin-top:10px;
+        margin-bottom:10px;
+        float:left;
+    }
+    #nav_bar{
+        float:right;
+    }
+    
+    ul li a{
+        text-decoration: none;
+    }
+    ul li{
+        list-style-image: none; 
+        display: inline; 
+        margin-right:15px; 
+        font-size:14px;
+    }
+    ul {
+        margin-top:35px; 
+    }
+    #banner_ruimte{
+        width:90%;
+        margin: 0 auto;
+    }
+    #banner_foto{
+        width:100%;
+        box-shadow: 0px 4px 5px #888888;
+    }
+    #ajax_amsterdam{
+        
+        box-shadow: 0px 4px 5px #888888;
+        margin-top:20px;
+        line-height: 19px;
+        padding-top:15px;
+        padding-bottom:15px;
+        color:white;
+        width:100%;
+        background-color:#d2041d;
+    }
+    .ajax_titel{
+        width:85%;
+        margin: 0 auto;
+        color:white;
+        font-family: sans-serif;
+        font-size:14px;
+    }
+    .ajax_tekst{
+        width:85%;
+        font-family: sans-serif;
+        font-size:14px;
+        margin:0 auto;
+    }
+    #inhoud {
+        width:100%;
+        height:auto;
+    }
+    #geschiedenis_oprichting{
+        height: auto;
+        margin-top: 30px;
+        padding-bottom:10px;
+        
+    }
+    #geschiedenis_successen{
+        margin:0 auto;
+        width:100%;
+        height: auto;
+        margin-top: 10px;
+        background-color:#e2e0e0;
+        padding-bottom:20px;
+        padding-top:20px;
+    }
+    .titel{
+        margin-left:5%;
+        width:50%;
+        color:#d2041d;
+        font-family: sans-serif;
+        font-size:14px;
+    }
+    .tekst {
+        margin-left:5%;
+        line-height: 25px;
+        width: 50%;
+        margin-top:15px;
+        font-family: sans-serif;
+        font-size:14px;
+    }
+}
+@media screen and (min-width: 511px) and (max-width: 950px){
+    body {
+        font-family:sans-serif;
+        margin:0;
+    }
+    #menu {
+        width:100%;
+        background-color:white;
+        color:dimgray;
+    }
+    #logo{
+        width:70px;
+        margin-left:10px;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    ul li a{
+        text-decoration: none;
+    }
+    ul li{
+        list-style-image: none; 
+        display: inline; 
+        margin-right:15px; 
+        font-size:14px;
+    }
+    ul {
+        float :right; 
+        margin-top:35px; 
+        margin-right:10px;
+        width:360px;
+    }
+    #banner_foto{
+        width:100%;
+        box-shadow: 0px 4px 5px #888888;
+    }
+    #ajax_amsterdam{
+        
+        box-shadow: 0px 4px 5px #888888;
+        margin-top:20px;
+        line-height: 19px;
+        padding-top:15px;
+        padding-bottom:15px;
+        color:white;
+        width:100%;
+        background-color:#d2041d;
+    }
+    .ajax_titel{
+        width:85%;
+        margin: 0 auto;
+        color:white;
+        font-family: sans-serif;
+        font-size:14px;
+    }
+    .ajax_tekst{
+        width:85%;
+        font-family: sans-serif;
+        font-size:14px;
+        margin:0 auto;
+    }
+    #inhoud {
+        width:100%;
+        height:auto;
+    }
+    #geschiedenis_oprichting{
+        height: auto;
+        margin-top: 30px;
+        padding-bottom:10px;
+        
+    }
+    #geschiedenis_successen{
+        width:100%;
+        height: auto;
+        margin-top: 10px;
+        background-color:#e2e0e0;
+        padding-bottom:20px;
+        padding-top:20px;
+    }
+    .titel{
+        width:88%;
+        margin:0 auto;
+        color:#d2041d;
+        font-family: sans-serif;
+        font-size:14px;
+    }
+    .tekst {
+        line-height: 25px;
+        margin:0 auto;
+        width: 88%;
+        margin-top:15px;
+        font-family: sans-serif;
+        font-size:14px;
+    }
+}
+@media screen and (max-width: 511px) {
+    #nav_bar{
+        display:none;
+    }
+    body {
+        margin:0;   
+    }
+    #logo_ruimte{
+        width:70px;
+        margin:0 auto;
+        height:70px;
+    }
+    #logo{
+        margin-top:5px;
+        width:70px;
+    }
+    #banner_ruimte{
+        margin-top:10px;
+        width:100%;
+    }
+    #banner_foto{
+        width:100%;
+        box-shadow: 0px 3px 7px  #888888;
+    }
+    #ajax_amsterdam{
+        
+        box-shadow: 0px 4px 5px #888888;
+        margin-top:20px;
+        line-height: 19px;
+        padding-top:15px;
+        padding-bottom:15px;
+        color:white;
+        width:100%;
+        background-color:#d2041d;
+    }
+    .ajax_titel{
+        width:85%;
+        margin: 0 auto;
+        color:white;
+        font-family: sans-serif;
+        font-size:14px;
+    }
+    .ajax_tekst{
+        width:85%;
+        font-family: sans-serif;
+        font-size:14px;
+        margin:0 auto;
+    }
+    #inhoud {
+        width:100%;
+        height:auto;
+    }
+    #geschiedenis_oprichting{
+        height: auto;
+        margin-top: 30px;
+        padding-bottom:10px;
+        
+    }
+    #geschiedenis_successen{
+        width:100%;
+        height: auto;
+        margin-top: 10px;
+        background-color:#e2e0e0;
+        padding-bottom:20px;
+        padding-top:20px;
+    }
+    .titel{
+        width:88%;
+        margin:0 auto;
+        color:#d2041d;
+        font-family: sans-serif;
+        font-size:14px;
+    }
+    .tekst {
+        line-height: 25px;
+        margin:0 auto;
+        width: 88%;
+        margin-top:15px;
+        font-family: sans-serif;
+        font-size:14px;
+    }
+}

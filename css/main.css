@@ -1,0 +1,483 @@
+@media screen and (min-width:950px){
+    body{
+        margin: 0;
+        font-family: sans-serif;
+    }
+   input[type=text] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    }
+    input[type=email] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+    input[type=submit] {
+    width: 120px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color:#d2041d;
+    color:white;
+    border:none;    
+}
+    textarea{
+    min-height: 200px;
+        width: 60%;
+    }
+    table{
+        width:60%;
+        margin:0 auto;
+        border:1px black solid;
+    }
+    th {
+        text-align: center;
+        background-color:#d2041d;
+        color:white;
+    }
+    table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+        padding-left:5px;
+}
+    div hr {
+        width:20%;
+        color:#d2041d;
+        border-color:#d2041d;
+        border-bottom-color: white;
+    }
+    section{
+        width:90%;
+        margin:0 auto;
+    }
+    #menu{
+        width:90%;
+        background-color:white;
+        color:black;
+        margin:0 auto;
+        
+    }
+    #logo_ruimte{
+        width:60px;
+    }
+    #logo{
+        width:50px;
+        margin-left:10px;
+        margin-top:10px;
+        margin-bottom:10px;
+        float:left;
+    }
+    #nav_bar{
+        float:right;
+    }
+    
+     a{
+        text-decoration: none;
+    }
+    ul li{
+        list-style-image: none; 
+        display: inline; 
+        margin-right:15px; 
+        font-size:14px;
+         color:black;
+        
+         font-family: sans-serif;
+    }
+    ul {
+        margin-top:25px; 
+    }
+    /*
+    #banner_ruimte{
+        width:90%;
+        margin: 0 auto;
+        position: relative;
+    }
+    #banner_foto{
+        width:100%;
+        position:relative;
+        box-shadow: 0px 4px 5px #888888;
+    }
+    #banner_foto1{
+        width:100%;
+        position:relative;
+        box-shadow: 0px 4px 5px #888888;
+    }
+    */
+    #banner_ruimte{
+        width:90%;
+        margin: 0 auto;
+    }
+    #banner_foto{
+        width:100%;
+        box-shadow: 0px 4px 5px #888888;
+    }
+    #ajax_amsterdam{
+        
+        box-shadow: 0px 4px 5px #888888;
+        margin-top:20px;
+        line-height: 19px;
+        padding-top:15px;
+        padding-bottom:15px;
+        color:white;
+        width:100%;
+        background-color:#d2041d;
+        text-align:center;
+    }
+    .ajax_titel{
+        width:85%;
+        margin: 0 auto;
+        color:white;
+        font-family: sans-serif;
+        font-style: oblique;
+        font-size:16px;
+    }
+    .ajax_tekst{
+        width:85%;
+        font-family: sans-serif;
+        font-size:14px;
+        margin:0 auto;
+    }
+    .fotos{
+        width:50%;
+        margin-left:5%;
+    }
+    #inhoud {
+        width:100%;
+        height:auto;
+    }
+    #geschiedenis_oprichting{
+        height: auto;
+        margin-top: 30px;
+        padding-bottom:10px;
+        
+    }
+    #geschiedenis_successen{
+        margin:0 auto;
+        width:100%;
+        height: auto;
+        margin-top: 10px;
+        background-color:#e2e0e0;
+        padding-bottom:20px;
+        padding-top:20px;
+    }
+    .titel{
+        margin-left:5%;
+        width:50%;
+        color:#d2041d;
+        font-family: sans-serif;
+        font-size:14px;
+    }
+    .tekst {
+        margin-left:5%;
+        line-height: 25px;
+        width: 50%;
+        margin-top:15px;
+        font-family: sans-serif;
+        font-size:14px;
+    }
+    #footer{
+        width:100%;
+        height:150px;
+        background-color:#d2041d;
+        margin:0 auto;
+        margin-top:40px;
+        padding:10px;
+    }
+    #footer p{
+        color:white;
+        text-align:center;
+    }
+}
+@media screen and (min-width: 511px) and (max-width: 950px){
+    body {
+        font-family:sans-serif;
+        margin:0;
+    }
+     input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    }
+    input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+    input[type=submit] {
+    width: 120px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color:#d2041d;
+    color:white;
+    border:none;
+}
+    textarea{
+    min-height: 200px;
+        width: 100%;
+    }
+    table{
+        width:100%;
+        margin:0 auto;
+        border:1px black solid;
+    }
+    th {
+        text-align: center;
+        background-color:#d2041d;
+        color:white;
+    }
+    table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+        padding-left:5px;
+}
+    
+    #menu {
+        width:100%;
+        background-color:white;
+        color:dimgray;
+    }
+    #logo{
+        width:70px;
+        margin-left:10px;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+     a{
+        text-decoration: none;
+         color:black;
+    }
+    ul li{
+        list-style-image: none; 
+        display: inline; 
+        margin-right:15px; 
+        font-size:11px;
+    }
+    ul {
+        float :right; 
+        margin-top:35px; 
+    }
+    #banner_foto{
+        width:100%;
+        box-shadow: 0px 4px 5px #888888;
+    }
+    #ajax_amsterdam{
+        
+        box-shadow: 0px 4px 5px #888888;
+        margin-top:20px;
+        line-height: 19px;
+        padding-top:15px;
+        padding-bottom:15px;
+        color:white;
+        width:100%;
+        background-color:#d2041d;
+    }
+    .ajax_titel{
+        width:85%;
+        margin: 0 auto;
+        color:white;
+        font-family: sans-serif;
+        font-size:14px;
+    }
+    .ajax_tekst{
+        width:85%;
+        font-family: sans-serif;
+        font-size:14px;
+        margin:0 auto;
+    }
+    #inhoud {
+        width:100%;
+        height:auto;
+    }
+    #geschiedenis_oprichting{
+        height: auto;
+        margin-top: 30px;
+        padding-bottom:10px;
+        
+    }
+    #geschiedenis_successen{
+        width:100%;
+        height: auto;
+        margin-top: 10px;
+        background-color:#e2e0e0;
+        padding-bottom:20px;
+        padding-top:20px;
+    }
+    .titel{
+        width:88%;
+        margin:0 auto;
+        color:#d2041d;
+        font-family: sans-serif;
+        font-size:14px;
+    }
+    .tekst {
+        line-height: 25px;
+        margin:0 auto;
+        width: 88%;
+        margin-top:15px;
+        font-family: sans-serif;
+        font-size:14px;
+    }
+    .fotos{
+        width:75%;
+        margin-left:5%;
+    }
+     #footer{
+        width:100%;
+        height:150px;
+        background-color:#d2041d;
+        margin:0 auto;
+        margin-top:40px;
+        padding:10px;
+    }
+    #footer p{
+        color:white;
+        text-align:center;
+    }
+}
+@media screen and (max-width: 511px) {
+     input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    }
+    input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+    input[type=submit] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color:#d2041d;
+    color:white;
+    border:none;
+}
+    textarea{
+    min-height: 200px;
+        width: 100%;
+    }
+    #nav_bar{
+        display:none;
+    }
+    table{
+        width:100%;
+        margin:0 auto;
+        border:1px black solid;
+    }
+    th {
+        text-align: center;
+        background-color:#d2041d;
+        color:white;
+    }
+    table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+        padding-left:5px;
+}
+    body {
+        margin:0; 
+        font-family: sans-serif;
+        
+        font-size:14px;
+    }
+    #logo_ruimte{
+        width:70px;
+        margin:0 auto;
+        height:70px;
+    }
+    #logo{
+        margin-top:5px;
+        width:70px;
+    }
+    #banner_ruimte{
+        margin-top:10px;
+        width:100%;
+    }
+    #banner_foto{
+        width:100%;
+        box-shadow: 0px 3px 7px  #888888;
+    }
+    #ajax_amsterdam{
+        
+        box-shadow: 0px 4px 5px #888888;
+        margin-top:20px;
+        line-height: 19px;
+        padding-top:15px;
+        padding-bottom:15px;
+        color:white;
+        width:100%;
+        background-color:#d2041d;
+    }
+    .ajax_titel{
+        width:85%;
+        margin: 0 auto;
+        color:white;
+        font-family: sans-serif;
+        font-size:14px;
+    }
+    .ajax_tekst{
+        width:85%;
+        font-family: sans-serif;
+        font-size:14px;
+        margin:0 auto;
+    }
+    #inhoud {
+        width:100%;
+        height:auto;
+    }
+    #geschiedenis_oprichting{
+        height: auto;
+        margin-top: 30px;
+        padding-bottom:10px;
+        
+    }
+    #geschiedenis_successen{
+        width:100%;
+        height: auto;
+        margin-top: 10px;
+        background-color:#e2e0e0;
+        padding-bottom:20px;
+        padding-top:20px;
+    }
+    .titel{
+        width:88%;
+        margin:0 auto;
+        color:#d2041d;
+        font-family: sans-serif;
+        font-size:14px;
+    }
+    .tekst {
+        line-height: 25px;
+        margin:0 auto;
+        width: 88%;
+        margin-top:15px;
+        font-family: sans-serif;
+        font-size:14px;
+    }
+    .fotos{
+        width:100%;
+    }
+     #footer{
+        width:100%;
+        height:150px;
+        background-color:#d2041d;
+        margin:0 auto;
+        margin-top:40px;
+        padding:10px;
+    }
+    #footer p{
+        width:80%;
+        color:white;
+        text-align:center;
+    }
+}
